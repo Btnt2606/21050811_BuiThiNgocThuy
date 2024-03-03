@@ -164,3 +164,43 @@ background: linear-gradient(360deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 44%, 
     align-items: center;
     background-size: cover;
 }
+
+.bai6-wraptext{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 70px;
+}
+.block{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.block > *{
+padding: 10px;
+}
+
+.text-bai6{
+    color: yellow;
+    font-size: 10px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.pink{
+    color: pink;
+}
+.blue{
+    color: blue;
+}
+.bai6-number{
+    font-size: 30px;
+}
+.block> i{
+    font-size: 30px;
+}
